@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio da Lanchonete</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8e1;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d84315;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #ffe0b2;
+    }
+
+    tr:hover {
+      background-color: #fff3e0;
+    }
+  </style>
+</head>
+<body>
+  <h1>📱 Cardápio da Lanchonete</h1>
+  <table>
+    <tr>
+      <th>Item</th>
+      <th>Preço</th>
+    </tr>
+    <tr>
+      <td>X-Burguer</td>
+      <td>R$ 10,00</td>
+    </tr>
+    <tr>
+      <td>Pizza de Calabresa</td>
+      <td>R$ 25,00</td>
+    </tr>
+    <tr>
+      <td>Açaí com Banana</td>
+      <td>R$ 12,00</td>
+    </tr>
+    <tr>
+      <td>Refrigerante</td>
+      <td>R$ 5,00</td>
+    </tr>
+  </table>
+  <p>Aponte a câmera para o QR Code na mesa para acessar este cardápio no seu celular!</p>
+</body>
+</html>
